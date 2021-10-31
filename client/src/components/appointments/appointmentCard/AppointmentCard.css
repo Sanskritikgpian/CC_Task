@@ -1,0 +1,39 @@
+.appointmentCard {
+  position: relative;
+  background-color: white;
+  box-shadow: #64646f33 0px 7px 29px 0px;
+  margin: 10px;
+  padding: 20px;
+  padding-bottom: 55px;
+  transition: all 0.5s;
+  border: 2px solid white;
+}
+
+.appointmentCard:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 15px 50px -10px;
+}
+
+.appointmentCard > p {
+  margin-bottom: 10px;
+}
+
+.appointmentCard > p > b {
+  color: #1976d2;
+}
+
+.appointmentCard > .MuiButton-root {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  text-transform: none;
+  color: white;
+  background-color: #1976d2;
+  border: 2px solid white;
+  padding: 5px 20px;
+  transition: all 0.5s;
+}
+
+.appointmentCard > .MuiButton-root:hover {
+  transform: translateX(-5px);
+  background-color: #1976d2;
+}

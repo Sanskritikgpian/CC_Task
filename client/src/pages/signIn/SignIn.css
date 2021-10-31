@@ -1,0 +1,23 @@
+a:hover {
+  text-decoration: underline !important;
+}
+
+.signIn__errMsg {
+  color: red;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  animation: signIn__errMsgAppear 0.2s linear 3 forwards;
+}
+
+@keyframes signIn__errMsgAppear {
+  25% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+}
